@@ -1,0 +1,27 @@
+#error {
+  margin-left: 610px;
+  margin-top: 20px;
+  color: red;
+}
+.sresult {
+  text-align: center;
+  margin-left: 360px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+#name,
+year {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}

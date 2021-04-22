@@ -1,0 +1,126 @@
+body {
+  background-color: #09090b;
+}
+#email {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+#pass {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+.glow-on-hover {
+  margin-left: 585px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 10%;
+
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.pos {
+  margin-top: 120px;
+  margin-left: 560px;
+  width: 50%;
+
+  padding: 0px;
+}
+* {
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+#btn-2 {
+  margin-left: 585px;
+  margin-top: 5px;
+  width: 10%;
+  background-color: #00a400;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#headd {
+  color: red;
+  margin-left: 600px;
+  margin-top: 40px;
+  padding: 0px;
+}

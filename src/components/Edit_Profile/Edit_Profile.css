@@ -1,0 +1,19 @@
+#btn-home {
+  margin-left: 590px;
+}
+#currloc {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+#work {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}

@@ -1,0 +1,54 @@
+.six {
+  margin-top: 30px;
+  padding: 0;
+  margin-left: 570px;
+  margin-right: 500px;
+}
+#curr {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+#workk {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+#workkas {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+#fb {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+#insta {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+#twt {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}

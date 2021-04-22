@@ -1,0 +1,46 @@
+.nav-1 {
+  height: 11vh;
+  background: linear-gradient(
+    90deg,
+    rgb(110, 94, 254),
+    rgba(73, 63, 252, 1) 100%
+  );
+  background-color: #d5fefd;
+  background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  margin-bottom: 0;
+  padding: 2px;
+  height: 40px;
+  width: 45px;
+}
+.navbar-logo {
+  color: black;
+  justify-self: start;
+  font-size: 35px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.item-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+ul > li {
+  display: inline-block;
+  /* You can also add some margins here to make it look prettier */
+  zoom: 1;
+  *display: inline;
+  margin-left: 40px;
+  margin-top: 15px;
+  /* this fix is needed for IE7- */
+}
+
+a {
+  text-decoration: none;
+}
