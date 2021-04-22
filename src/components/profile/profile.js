@@ -11,7 +11,7 @@ const Profile = () => {
     const [person, setPerson] = useState("")   //state to save details of person
    
    async function data(){
-      const url = "http://localhost:5000/api/get/"+currentUser.email  //api url
+      const url = "https://alumni-management.herokuapp.com/api/get/"+currentUser.email  //api url
    axios.get(url)
       .then(res => {
          setPerson(res.data);
