@@ -5,7 +5,7 @@ import './Add_Data.css'
 import { Link, useHistory } from "react-router-dom"
 const Add_Data = () => {
   const {currentUser}= useAuth()
-let url="http://localhost:5000/api/user/"   //api url
+let url="https://alumni-management.herokuapp.com/api/user/"   //api url
   const year = useRef()                      //useState hooks
   const course = useRef()
   const currloc = useRef()
