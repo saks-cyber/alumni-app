@@ -16,7 +16,7 @@ const Edit_Profile = () => {
         const history = useHistory()
 
 
-  let url = 'http://localhost:5000/api/user/edit/'+currentUser.email //api url
+  let url = 'https://alumni-management.herokuapp.com/api/user/edit/'+currentUser.email //api url
   async function handleSubmit(e){     //function to handle submit
    e.preventDefault();
   
@@ -27,7 +27,7 @@ const Edit_Profile = () => {
         history.push("/profile")});
     
         }
-        const urll = "http://localhost:5000/api/get/"+currentUser.email
+        const urll = "https://alumni-management.herokuapp.com/api/get/"+currentUser.email
    async function datas(){
    axios.get(urll)
       .then(res => {
