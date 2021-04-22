@@ -17,7 +17,7 @@ async function sch(e){            //function to get the search results from the 
  let nameS = name.current.value
  nameS=nameS.replace(" ","&")
  
- const url = "http://localhost:5000/api/search/"+nameS+"/year/"+year.current.value
+ const url = "https://alumni-management.herokuapp.com/api/search/"+nameS+"/year/"+year.current.value
  //api url
  
  axios.get(url)           //axios request
