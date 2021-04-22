@@ -8,7 +8,7 @@ import image from './../../../src/profile-icon.png'
 import { Link } from 'react-router-dom';
 const Result = (props) => {
     const [person, setPerson] = useState("")
-   const url = "http://localhost:5000/api/get/"+props.match.params.email
+   const url = "https://alumni-management.herokuapp.com/api/get/"+props.match.params.email
    async function data(){
    axios.get(url)
       .then(res => {
