@@ -7,7 +7,7 @@ import User_Nav from './../User_Nav/User_Nav'
 const Home = () => {
  const { currentUser } = useAuth()
      const [person, setPerson] = useState("")
-   const url = "http://localhost:5000/api/get/"+currentUser.email  //api url
+   const url = "https://alumni-management.herokuapp.com/api/get/"+currentUser.email  //api url
    async function data(){
    axios.get(url)
       .then(res => {
